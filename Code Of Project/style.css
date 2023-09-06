@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container-wrap {
+    width: 100%;
+}
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+.clearfix {
+    overflow: auto;
+}
+.nav-wrap {
+    background-color: rgba(206, 206, 206, 0.59);
+    display: flex;
+    justify-content: space-between;
+}
+.nav li {
+    display: inline-block;
+    margin: 30px;
+    font-size: 19px;
+}
+.nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.logo img {
+    padding-top: 30px;
+    width: 120px;
+    margin-left: 40px;
+}
+.slider {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(header\ bg.png);
+    padding: 250px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.slider-x{
+    text-align: center;
+}
+.slider-x h1 {
+    padding-bottom: 30px;
+    color: blue;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+.slider-x p {
+    color: rgb(228, 228, 228);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.slider-x button {
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: blue;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    transition: 300ms;
+    transform:scale(1.3); 
+}
+span {
+    color: white;
+}
+.sec-2{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    padding-top: 200px;
+}
+.text p{
+    line-height: 30px;
+}
+.text h2{
+    color: rgb(0, 136, 255);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.sec-2 img{
+    width: 400px;
+    margin-bottom: 30px;
+}
+.sec-2 button{
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: rgb(34, 0, 255);
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+.img-text img {
+    width: 50%;
+}
+.img-text {
+    display: flex;
+}
+.text-img {
+    width: 50%;
+    background-color: rgb(13, 0, 255);
+    padding-left: 33px;
+    padding-top: 150px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.img-text img {
+    width: 50%;
+    float: right;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 90px;
+}
+.box-1data img{
+    width: 50px;
+    margin: 15px auto;
+    display: block;
+}
+.box-1data {
+    text-align: center;
+}
+.bg-bg{
+    background-color: rgb(197, 189, 189);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    overflow-y: hidden;
+}
+.cards-1{
+    background-color: #2d3d4f;
+    padding: 150px  0px;
+    text-align: center;
+    color: white;
+    width: 250px;
+    margin: 0 auto;
+    transition: transform .2s;
+}
+.cards-1:hover{
+    background-color: white;
+    transition: 300ms;
+    transform:scale(1.5); 
+    cursor: pointer;
+}
+.cards-1:hover p {
+    transition: 400ms;
+    color: black;
+}
+.cards-1:hover h3 {
+    transition: 1.1s;
+    color: black;
+}
+.cards-1 i{
+    font-size: 70px;
+    position: relative;
+    bottom: 40px;
+}
+.cards-1:hover i{
+  color: black;
+    transition: 400ms
+}
+.cards-1 p{
+    padding: 4px;
+    line-height: 20px;
+}
+.cards-2{
+    background-color: #2d3d4f;
+    padding: 130px 100px;
+    text-align: center;
+    color: white;;
+}
+.cards-2:hover{
+    background-color: white;
+    border-radius: 70px 10px 70px 10px;
+    transition: 400ms;
+    cursor: pointer;
+}
+.cards-2:hover p {
+    transition: 400ms;
+    color: black;
+}
+
+.cards-2:hover h3 {
+    transition: 1.1s;
+    color: black;
+}
+.cards-2 p{
+    padding: 7px;
+    color: orange;
+}
+.cards-2 img{
+    width: 120px;
+    border: 4px solid black;
+    border-radius:60px;
+}
+.bx-bg{
+    background-color: rgb(96, 136, 227);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.cards-2 i{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.cards-2:hover i{
+    color: black;
+    transition: 300ms;
+  }
+  form {
+    margin-top: 120px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+form input  {
+   margin: 20px;
+   padding: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+form button {
+    color:rgb(0, 174, 255);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    padding: 15px;
+    width: 100px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.Line-3 {
+    padding: 50px;
+    border: 2px solid black;
+}
+.Login h2 {
+   text-align: center;
+   padding-bottom: 70px;
+   color: rgb(0, 106, 255);
+}
+.Login {
+    display: flex;
+    justify-content: space-around;
+}
+iframe {
+    margin-top: 130px;
+    border-radius: 40px;
+}
+form button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 400ms;
+    cursor: pointer;
+}
+.ko-1 {
+    background-color: rgb(71, 129, 211);
+    width: 100%;
+    margin-top: 20px;
+}
+.footer__data {
+    display: flex;
+    justify-content: space-around;
+}
+.footer__data h3{
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+}
+.Hool p{
+    color: white;
+    line-height: 40x;
+    padding-bottom: 110px;
+
+}
+.kool p{
+    color: white;
+    line-height: 30px;
+    font-size: 14px;
+    padding-bottom: 65px;
+    text-align: left;
+}
+.lool p{
+    color: white;
+    line-height: 30px;
+    font-size: 14px;
+    padding-top: 40px;
+    text-align: left;
+}
